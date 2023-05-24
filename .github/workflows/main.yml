@@ -2,7 +2,7 @@ name: Update Requirements
 
 on:
   schedule:
-    - cron: '19 08 * * *'  # Runs daily at midnight
+    - cron: '10 19 * * *'  # Runs daily at midnight
 
 jobs:
   update_requirements:
