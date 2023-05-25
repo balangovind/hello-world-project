@@ -1,8 +1,8 @@
 name: Update Requirements
 
-on:
-  schedule:
-    - cron: '* * * * *'  # Runs daily at midnight
+on: push
+  #schedule:
+  #  - cron: '* * * * *'  # Runs daily at midnight
 
 jobs:
   update_requirements:
